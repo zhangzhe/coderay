@@ -1,0 +1,15 @@
+Copied code style from railscasts.
+Need coderay installed ahead.
+
+More about CodeRay see: http://coderay.rubychan.de/doc/classes/CodeRay.html
+1.install coderay: 
+sudo gem install coderay
+2.copy coderay plugin to vendor/plugins
+3.Use in rails: 
+CoderayString.new(string).format
+
+
+Exmple see code style on:
+http://zhangzhe.heroku.com/
+
+
