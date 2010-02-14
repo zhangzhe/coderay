@@ -1,5 +1,5 @@
 Copied code style from railscasts.
-Need coderay installed ahead.
+Need coderay gem installed ahead.
 
 More about CodeRay see: http://coderay.rubychan.de/doc/classes/CodeRay.html
 
@@ -9,6 +9,12 @@ sudo gem install coderay
 2.copy coderay plugin to vendor/plugins
 3.Use in rails: 
 CoderayString.new(string).format
+4.Input code should be like:
+[code:ruby]
+def hello
+  puts "hello world!"
+end
+[/code]
 
 Exmple see code style on:
 http://zhangzhe.heroku.com/
